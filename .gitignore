@@ -1,0 +1,10 @@
+composer.phar
+composer.lock
+.phpunit.result.cache
+/vendor
+/tmp
+/wordpress
+/wp
+/.github
+/.idea
+/.phpdoc/cache
