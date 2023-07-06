@@ -2,8 +2,6 @@
 
 namespace Urisoft;
 
-namespace Urisoft;
-
 class PasswordGenerator
 {
     /**
