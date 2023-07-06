@@ -13,9 +13,7 @@ if ( ! \function_exists( 'generate_password' ) ) {
      */
     function generate_password( int $length = 8, bool $useSpecialChars = true )
     {
-        $generator = new PasswordGenerator();
-
-        return $generator->generatePassword( $length, $useSpecialChars );
+        return PasswordGenerator::generatePassword( $length, $useSpecialChars );
     }
 }
 
@@ -29,8 +27,6 @@ if ( ! \function_exists( 'generate_passcode' ) ) {
      */
     function generate_passcode( $length = 6 )
     {
-        $generator = new PasswordGenerator();
-
-        return $generator->generatePasscode( $length );
+        return PasswordGenerator::generatePasscode( $length );
     }
 }
